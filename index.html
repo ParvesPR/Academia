@@ -21,46 +21,49 @@
 <body>
     <header>
         <img class="d-block img-fluid header-image" src="./images/bg_1.jpg" alt="">
-        <div class="top-bar container">
-            <div class="row py-4">
-                <div class="col-md col-lg-5">
-                    <a class="navbar-brand fs-3 fw-bold text-white" href="#">ACADEMIA
-                        <span class="text-uppercase text-white">Online education & learning</span>
-                    </a>
-                </div>
-                <div class="col-md align-items-center d-none d-lg-flex">
-                    <div class="icon me-2">
-                        <span><i class="fa-regular fa-clock text-white"></i></span>
+        <div class="top-bar">
+            <div class="container">
+                <div class="row py-4">
+                    <div class="col-md col-lg-5">
+                        <a class="navbar-brand fs-3 fw-bold text-white" href="#">ACADEMIA
+                            <span class="text-uppercase text-white">Online education & learning</span>
+                        </a>
                     </div>
-                    <div class="text text-white">
-                        <span class="d-block">Monday - Friday</span>
-                        <strong>8:00AM-8:00PM</strong>
+                    <div class="col-md align-items-center d-none d-lg-flex">
+                        <div class="icon me-2">
+                            <span><i class="fa-regular fa-clock text-white"></i></span>
+                        </div>
+                        <div class="text text-white">
+                            <span class="d-block">Monday - Friday</span>
+                            <strong>8:00AM-8:00PM</strong>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md align-items-center d-none d-lg-flex">
-                    <div class="icon me-2">
-                        <span><i class="fa-solid fa-phone text-white"></i></span>
+                    <div class="col-md align-items-center d-none d-lg-flex">
+                        <div class="icon me-2">
+                            <span><i class="fa-solid fa-phone text-white"></i></span>
+                        </div>
+                        <div class="text text-white">
+                            <span class="d-block">Call Us</span>
+                            <strong>+2 392 3929 210</strong>
+                        </div>
                     </div>
-                    <div class="text text-white">
-                        <span class="d-block">Call Us</span>
-                        <strong>+2 392 3929 210</strong>
+                    <div class="col-md d-none d-md-flex align-items-center justify-content-around social-icons">
+                        <span><i class="fa-brands fa-facebook-f"></i></span>
+                        <span><i class="fa-brands fa-twitter"></i></span>
+                        <span><i class="fa-brands fa-instagram"></i></span>
+                        <span><i class="fa-brands fa-dribbble"></i></span>
                     </div>
-                </div>
-                <div class="col-md d-none d-md-flex align-items-center justify-content-around social-icons">
-                    <span><i class="fa-brands fa-facebook-f"></i></span>
-                    <span><i class="fa-brands fa-twitter"></i></span>
-                    <span><i class="fa-brands fa-instagram"></i></span>
-                    <span><i class="fa-brands fa-dribbble"></i></span>
                 </div>
             </div>
             <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
+                <div class="container-fluid pe-0">
+                    <a href="#" class="btn-custom order-lg-last text-decoration-none">Get Certificate</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse py-2" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse mt-3 mt-lg-0" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -84,14 +87,36 @@
                                 <a class="text-white nav-link" href="#">Contact</a>
                             </li>
                         </ul>
-                        <form class="d-flex" role="search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
                     </div>
                 </div>
             </nav>
         </div>
     </header>
+
+    <!-- LEARNING BENEFITS -->
+    <section class="learning-benifits">
+        <div class="container">
+            <div class="row d-md-flex align-items-center">
+                <div class="col-12 col-md-6">
+                    <img class="img-fluid" src="./images/about.jpg" alt="">
+                </div>
+                <div class="col-12 col-md-6 px-md-1 px-lg-5">
+                    <p class="text-uppercase sub-title fw-bold mb-2">Learn Anything</p>
+                    <h2 class="title">Benefits About Online Learning Expertise</h2>
+                    <div class="row mt-4">
+                        <div class="col-12 d-flex shadow-sm bg-white p-4">
+                            <span class="me-3 fs-1 text-secondary"><i class="fa-solid fa-book-open-reader"></i></span>
+                            <div>
+                                <h5>Online Courses</h5>
+                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                    there live the blind texts.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"

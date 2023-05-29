@@ -182,6 +182,10 @@ body {
 
 /* CUSTOM RESPONSIVE FOR MOBILE DEVICES */
 @media only screen and (max-width: 576px) {
+    .title {
+        font-size: 2.3rem;
+    }
+
     .top-bar .navbar .btn-custom::before {
         transform: skewX(-0deg);
     }

@@ -197,9 +197,38 @@ p, h1, h2, h3.h4, h5 {
 
 }
 
+/* POPULAR COURSES */
+.c-text {
+    line-height: 2.5rem;
+}
+
+.card-icon {
+    display: block;
+    font-size: 3rem;
+    background: #6c757d;
+    border-radius: 50%;
+    padding: 10px;
+    color: #fff;
+}
+
+.author-img {
+    width: 35px;
+}
+
+.c-icon {
+    color: #1EB2A6;
+    font-size: 0.75rem;
+    font-style: normal;
+}
+
+.c-text {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
 /* CUSTOM RESPONSIVE FOR MOBILE DEVICES */
 @media only screen and (max-width: 576px) {
-    .title {
+    .heading {
         font-size: 2.3rem;
     }
 

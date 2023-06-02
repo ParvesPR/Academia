@@ -22,6 +22,18 @@ p, h1, h2, h3.h4, h5 {
     color: #1EB2A6;
 }
 
+.white-btn {
+    border: 1px solid #1eb2a6;
+    border-radius: 5px;
+    color: #1eb2a6;
+    font-size: 0.9rem;
+    background: #fff;
+    display: block;
+    width: 100%;
+    padding: 0.9rem 1rem;
+    box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+}
+
 /* TOP BAR */
 .header-image {
     position: relative;
@@ -199,14 +211,16 @@ p, h1, h2, h3.h4, h5 {
 
 /* POPULAR COURSES */
 .c-text {
-    line-height: 2.5rem;
+    line-height: 2.4rem;
 }
 
 .card-icon {
     display: block;
-    font-size: 3rem;
+    font-size: 2.5rem;
     background: #6c757d;
     border-radius: 50%;
+    width: 50px;
+    height: 50px;
     padding: 10px;
     color: #fff;
 }
@@ -221,9 +235,18 @@ p, h1, h2, h3.h4, h5 {
     font-style: normal;
 }
 
-.c-text {
+.cs-text {
     font-size: 0.9rem;
-    font-weight: 500;
+    font-weight: 600;
+    color: #1EB2A6;
+}
+
+.course-price {
+    background: #f8f8f8;
+    padding: 0.7rem;
+    border-radius: 5px;
+    color: #1eb2a6;
+    font-size: 0.9rem;
 }
 
 /* CUSTOM RESPONSIVE FOR MOBILE DEVICES */

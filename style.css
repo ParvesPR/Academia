@@ -259,9 +259,22 @@ p, h1, h2, h3.h4, h5 {
 }
 
 /* OUR COURSES */
+#cmt-sci{
+    background: #1EB2A6;
+    color: white;
+}
 .course-icon span {
     font-size: 3rem;
     color: #1eb2a6;
+}
+.course-text h5{
+    line-height: 1.8rem;
+}
+.course-text p{
+    font-size: 0.8rem;
+    color: #1EB2A6;
+    background: #F8F8F8;
+    padding: 0.3rem;
 }
 
 /* CUSTOM RESPONSIVE FOR MOBILE DEVICES */
@@ -273,4 +286,8 @@ p, h1, h2, h3.h4, h5 {
     .top-bar .navbar .btn-custom::before {
         transform: skewX(-0deg);
     }
+    #sec-div {
+        transform: scaley(1.0) scaleX(1.0);
+    }
+    
 }

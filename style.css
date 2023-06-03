@@ -259,22 +259,41 @@ p, h1, h2, h3.h4, h5 {
 }
 
 /* OUR COURSES */
-#cmt-sci{
+.course-card, .course-card span {
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+
+#cmt-sci {
     background: #1EB2A6;
     color: white;
 }
+
 .course-icon span {
     font-size: 3rem;
     color: #1eb2a6;
 }
-.course-text h5{
+
+.course-text h5 {
     line-height: 1.8rem;
 }
-.course-text p{
+
+.course-text p {
     font-size: 0.8rem;
     color: #1EB2A6;
     background: #F8F8F8;
     padding: 0.3rem;
+}
+
+/* HOVER EFFECT */
+.course-card:hover {
+    transform: translatey(-5px);
+    background: #1EB2A6 !important;
+    color: white;
+}
+
+.course-card:hover span {
+    color: white;
 }
 
 /* CUSTOM RESPONSIVE FOR MOBILE DEVICES */
@@ -286,8 +305,9 @@ p, h1, h2, h3.h4, h5 {
     .top-bar .navbar .btn-custom::before {
         transform: skewX(-0deg);
     }
+
     #sec-div {
         transform: scaley(1.0) scaleX(1.0);
     }
-    
+
 }

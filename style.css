@@ -295,6 +295,23 @@ p, h1, h2, h3.h4, h5 {
 .course-card:hover span {
     color: white;
 }
+/* SUCCESSFUL STUDENT */
+.successful-student .student-img{
+    display: block;
+    width: 80px;
+    height: 80px;
+}
+.successful-student .icon{
+    color: #fff;
+    font-size: 1.2rem;
+    background: #1EB2A6;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    right: 15px;
+}
 
 /* CUSTOM RESPONSIVE FOR MOBILE DEVICES */
 @media only screen and (max-width: 576px) {

@@ -296,6 +296,10 @@ p, h1, h2, h3.h4, h5 {
     color: white;
 }
 /* SUCCESSFUL STUDENT */
+#testimonial-card{
+    background: #1EB2A6;
+    color: white;
+}
 .successful-student .student-img{
     display: block;
     width: 80px;

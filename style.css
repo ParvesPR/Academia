@@ -295,17 +295,20 @@ p, h1, h2, h3.h4, h5 {
 .course-card:hover span {
     color: white;
 }
+
 /* SUCCESSFUL STUDENT */
-#testimonial-card{
+#testimonial-card {
     background: #1EB2A6;
     color: white;
 }
-.successful-student .student-img{
+
+.successful-student .student-img {
     display: block;
     width: 80px;
     height: 80px;
 }
-.successful-student .icon{
+
+.successful-student .icon {
     color: #fff;
     font-size: 1.2rem;
     background: #1EB2A6;
@@ -316,9 +319,31 @@ p, h1, h2, h3.h4, h5 {
     line-height: 30px;
     right: 15px;
 }
+
 /* BLOG */
-.blog-icon{
+.blog .card img {
+    transition: all ease-in 0.3s;
+}
+
+.blog .card {
+    overflow: hidden;
+}
+
+.blog .card img:hover {
+    transform: scale(1.1);
+}
+
+.blog-icon {
     font-size: 0.9rem;
+}
+
+.blog-title {
+    transition: all 0.3s;
+}
+
+.blog-title:hover {
+    cursor: pointer;
+    color: #1EB2A6;
 }
 
 /* CUSTOM RESPONSIVE FOR MOBILE DEVICES */

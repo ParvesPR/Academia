@@ -354,9 +354,42 @@ p, h1, h2, h3.h4, h5 {
 .price-card .white-btn {
     transition: 0.3s;
 }
+
 .price-card .white-btn:hover {
     color: #fff;
     background: #1EB2A6;
+}
+
+/* NEWSLETTER */
+#newsletter {
+    background: #1EB2A6;
+}
+.newsletter .form-group input {
+    background: transparent !important;
+    color: white !important;
+    font-size: 16px;
+    padding: 0;
+    border-radius: 5px 0px 0px 5px;
+    border: none !important;
+}
+.newsletter .form-group input::placeholder{
+    color: #fff;
+}
+.newsletter .form-group {
+    position: relative;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-radius: 0;
+}
+.form-control {
+    height: 45px;
+    background: #fff;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+    border-radius: 2px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 /* CUSTOM RESPONSIVE FOR MOBILE DEVICES */

@@ -316,6 +316,10 @@ p, h1, h2, h3.h4, h5 {
     line-height: 30px;
     right: 15px;
 }
+/* BLOG */
+.blog-icon{
+    font-size: 0.9rem;
+}
 
 /* CUSTOM RESPONSIVE FOR MOBILE DEVICES */
 @media only screen and (max-width: 576px) {

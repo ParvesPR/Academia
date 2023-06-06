@@ -333,7 +333,7 @@ p, h1, h2, h3.h4, h5 {
     transform: scale(1.1);
 }
 
-.blog-icon {
+.card-sub {
     font-size: 0.9rem;
 }
 
@@ -344,6 +344,19 @@ p, h1, h2, h3.h4, h5 {
 .blog-title:hover {
     cursor: pointer;
     color: #1EB2A6;
+}
+
+/* PRICING */
+.price-card h3 {
+    color: #1EB2A6;
+}
+
+.price-card .white-btn {
+    transition: 0.3s;
+}
+.price-card .white-btn:hover {
+    color: #fff;
+    background: #1EB2A6;
 }
 
 /* CUSTOM RESPONSIVE FOR MOBILE DEVICES */

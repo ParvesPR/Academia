@@ -392,6 +392,14 @@ p, h1, h2, h3.h4, h5 {
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+/* FOOTER */
+.footer-sub{
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 0.8;
+    color: #1EB2A6;
+}
 /* CUSTOM RESPONSIVE FOR MOBILE DEVICES */
 @media only screen and (max-width: 576px) {
     .heading {

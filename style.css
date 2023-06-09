@@ -364,6 +364,7 @@ p, h1, h2, h3.h4, h5 {
 #newsletter {
     background: #1EB2A6;
 }
+
 .newsletter .form-group input {
     background: transparent !important;
     color: white !important;
@@ -372,15 +373,18 @@ p, h1, h2, h3.h4, h5 {
     border-radius: 5px 0px 0px 5px;
     border: none !important;
 }
-.newsletter .form-group input::placeholder{
+
+.newsletter .form-group input::placeholder {
     color: #fff;
 }
+
 .newsletter .form-group {
     position: relative;
     margin-bottom: 0;
     border-bottom: 1px solid rgb(255, 255, 255);
     border-radius: 0;
 }
+
 .form-control {
     height: 45px;
     background: #fff;
@@ -393,11 +397,43 @@ p, h1, h2, h3.h4, h5 {
 }
 
 /* FOOTER */
-.footer-sub{
+.footer-sub {
     display: block;
     font-size: 0.75rem;
     font-weight: 700;
     line-height: 0.8;
+    color: #1EB2A6;
+}
+
+.footer-icon li a {
+    display: block;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #1EB2A6;
+    color: #fff;
+    transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+.footer-icon li a:hover {
+    cursor: pointer;
+    background: #fff;
+    color: #1EB2A6;
+    box-shadow: 0px 1px 5px -1px #00000085;
+    border: none;
+}
+.footer-link ul li span{
+    font-size: 0.8rem;
+}
+.footer-link ul li{
+    color: #6c757d;
+    font-weight: 400;
+}
+.footer-link ul li:hover{
+    cursor: pointer;
     color: #1EB2A6;
 }
 /* CUSTOM RESPONSIVE FOR MOBILE DEVICES */

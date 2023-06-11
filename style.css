@@ -417,6 +417,41 @@ p, h1, h2, h3.h4, h5 {
     transition: 0.3s;
 }
 
+.footer-link ul li span {
+    font-size: 0.8rem;
+}
+
+.footer-link ul li {
+    color: #6c757d;
+    font-weight: 400;
+}
+
+.recent-post-img img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.recent-post-meta {
+    font-size: 0.8rem;
+    color: #1EB2A6;
+}
+
+.recent-post-text p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #6c757d;
+}
+
+.questions span {
+    color: #1EB2A6;
+}
+
+.questions p {
+    color: #6c757d;
+}
+
 /* HOVER EFFECT */
 .footer-icon li a:hover {
     cursor: pointer;
@@ -425,17 +460,16 @@ p, h1, h2, h3.h4, h5 {
     box-shadow: 0px 1px 5px -1px #00000085;
     border: none;
 }
-.footer-link ul li span{
-    font-size: 0.8rem;
-}
-.footer-link ul li{
-    color: #6c757d;
-    font-weight: 400;
-}
-.footer-link ul li:hover{
+
+.footer-link ul li:hover {
     cursor: pointer;
     color: #1EB2A6;
 }
+
+.c-footer {
+    background-color: #1eb2a6;
+}
+
 /* CUSTOM RESPONSIVE FOR MOBILE DEVICES */
 @media only screen and (max-width: 576px) {
     .heading {

@@ -492,8 +492,11 @@ p, h1, h2, h3.h4, h5 {
         background-position: center right;
 
     }
-
+    .top-bar .navbar .btn-custom{
+        width: auto;
+    }
     .top-bar .navbar .btn-custom::before {
+        width: auto;
         -webkit-transform: skewX(0deg);
         -ms-transform: skewX(0deg);
         transform: skewX(0deg);

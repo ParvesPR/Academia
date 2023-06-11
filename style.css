@@ -35,6 +35,18 @@ p, h1, h2, h3.h4, h5 {
 }
 
 /* TOP BAR */
+.hero-wrap {
+    background-image: url(./images/bg_1.jpg);
+    height: 100vh;
+    min-height: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    z-index: 0;
+}
+
 .header-image {
     position: relative;
     background-attachment: fixed;
@@ -91,6 +103,7 @@ p, h1, h2, h3.h4, h5 {
 }
 
 .top-bar .navbar .btn-custom::before {
+    content: '';
     position: absolute;
     top: -1px;
     bottom: -1px;
@@ -101,7 +114,6 @@ p, h1, h2, h3.h4, h5 {
     -ms-transform: skewX(-20deg);
     transform: skewX(-20deg);
     z-index: -1;
-    content: '';
 }
 
 .top-bar .navbar .btn-custom {
@@ -476,6 +488,18 @@ p, h1, h2, h3.h4, h5 {
         font-size: 2.3rem;
     }
 
+    .hero-wrap {
+        background-position: center right;
+
+    }
+
+    .top-bar .navbar .btn-custom::before {
+        -webkit-transform: skewX(0deg);
+        -ms-transform: skewX(0deg);
+        transform: skewX(0deg);
+
+    }
+
     .top-bar .navbar .btn-custom::before {
         transform: skewX(-0deg);
     }
@@ -484,4 +508,12 @@ p, h1, h2, h3.h4, h5 {
         transform: scaley(1.0) scaleX(1.0);
     }
 
+}
+
+@media only screen and (min-width: 768px) {
+    .top-bar .navbar .btn-custom::before {
+        -webkit-transform: skewX(0deg);
+        -ms-transform: skewX(0deg);
+        transform: skewX(0deg);
+    }
 }

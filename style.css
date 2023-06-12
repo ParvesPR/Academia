@@ -47,12 +47,6 @@ p, h1, h2, h3.h4, h5 {
     z-index: 0;
 }
 
-.header-image {
-    position: relative;
-    background-attachment: fixed;
-    min-height: 100vh;
-}
-
 .top-bar {
     position: absolute;
     top: 0;
@@ -147,6 +141,32 @@ p, h1, h2, h3.h4, h5 {
     transition: ease-in 0.3s;
 }
 
+.hero-content {
+    margin-top: 100px;
+}
+
+.hero-content p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.hero-content span {
+    font-size: 0.8rem;
+}
+
+.hero-content .custom-btn {
+    border: none;
+    background: #1EB2A6;
+    padding: 0.9rem 1.8rem;
+    font-size: 0.9rem;
+}
+
+.hero-content .custom-btn-white {
+    border: none;
+    background: #fff;
+    padding: 0.9rem 1.5rem;
+    font-size: 0.9rem;
+    color: #1EB2A6;
+}
 
 /* HOVER EFFECT */
 .navbar-brand:hover {
@@ -492,9 +512,11 @@ p, h1, h2, h3.h4, h5 {
         background-position: center right;
 
     }
-    .top-bar .navbar .btn-custom{
+
+    .top-bar .navbar .btn-custom {
         width: auto;
     }
+
     .top-bar .navbar .btn-custom::before {
         width: auto;
         -webkit-transform: skewX(0deg);
@@ -507,16 +529,29 @@ p, h1, h2, h3.h4, h5 {
         transform: skewX(-0deg);
     }
 
+    .hero-content-wrapper {
+        width: 100% !important;
+    }
+
     #sec-div {
         transform: scaley(1.0) scaleX(1.0);
     }
 
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     .top-bar .navbar .btn-custom::before {
         -webkit-transform: skewX(0deg);
         -ms-transform: skewX(0deg);
         transform: skewX(0deg);
+    }
+
+    .hero-content {
+        margin-top: -10px;
+    }
+
+    .hero-content-wrapper {
+        width: 100% !important;
+        padding-bottom: 40px !important;
     }
 }
